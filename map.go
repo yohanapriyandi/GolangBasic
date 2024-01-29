@@ -18,7 +18,7 @@ func main() {
 	book["author"] = "yohan"
 	book["ups"] = "what"
 
-	delete(book, "ups")
+	// delete(book, "ups")
 	fmt.Println(book)
 	fmt.Println(len(book))
 }
